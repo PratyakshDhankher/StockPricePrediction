@@ -32,13 +32,12 @@ Date	Symbol	Open	High	Low	Close
 
 # 🏗️ LSTM Model Architecture
 Model: "sequential"
-_________________________________________________________________
+
 Layer (type)         Output Shape       Param #
-=================================================================
+
 lstm (LSTM)          (None, 1, 50)       11,400
 lstm_1 (LSTM)        (None, 50)          20,200
 dense (Dense)        (None, 1)               51
-=================================================================
 Total params: 31,651
 Trainable params: 31,651
 
